@@ -1,0 +1,137 @@
+@import url(./font/fonts.css);
+.button {
+  padding: 11px 53px;
+  border: 1px solid #E2AB3F;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+.section-title {
+  font-family: "Balqis";
+  font-size: 96px;
+  color: #e2ab3f;
+}
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  transform: translateY(-30px);
+  margin-bottom: 100px;
+}
+/* nav-header */
+.nav-header {
+  background-image: url(./images/header-bg.jpg);
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.header-title {
+  font-size: 250px;
+  font-family: "Balqis";
+}
+.header-subtitle {
+  font-size: 56px;
+  font-weight: 300;
+  font-style: italic;
+  transform: translateY(-80px);
+}
+/* fairy */
+.fairytail {
+  margin-top: 186px;
+}
+/* trip */
+.trip {
+  margin-top: 230px;
+  margin-bottom: 185px;
+}
+/* price */ 
+.price {
+  margin-top: 150px;
+}
+.price-content {
+  padding-top: 50px;
+}
+.ballon-1 {
+  top: 0;
+  right: 210px;
+}
+.ballon-2 {
+  width: 73px;
+  right: 145px;
+  top: 335px;
+}
+.ballon-3 {
+  width: 73px;
+  top: 500px;
+  right: 70px;
+}
+/* zayafka */
+.zayafka {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.zayafka-content .section-subtitle {
+  margin-bottom: 0;
+}
+.zayafka-login {
+  max-width: 383px;
+}
+.zayafka-login input {
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid #E2AB3F;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .header-title {
+    font-size: 180px;
+  }
+  .header-subtitle {
+    font-size: 44px;
+    transform: translateY(-60px);
+  }
+}
+@media (max-width: 768px) {
+  .nav-header {
+    height: 700px;
+  }
+  .header-title {
+    font-size: 110px;
+  }
+  .header-subtitle {
+    font-size: 30px;
+    transform: translateY(-40px);
+  }
+}
+@media (max-width: 480px) {
+  .nav-header {
+    height: 500px;
+  }
+  .header-title {
+    font-size: 75px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+    transform: translateY(-30px);
+  }
+  .section-title {
+    font-size: 80px;
+  }
+  .fairytail {
+    margin-top: 100px;
+  }
+  .fairytail .section-subtitle {
+    margin-bottom: 50px;
+  }
+}
